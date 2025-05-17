@@ -1,0 +1,44 @@
+/* Bajar Footer */
+
+body {
+  min-height: 100vh;
+
+  display: flex;
+
+  flex-direction: column; 
+}
+
+/* Estilos del NavBar */
+
+.navBar {
+  background: linear-gradient(
+    56deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(102, 95, 95, 0.52) 100%,
+    rgba(74, 74, 74, 1) 50%
+  );
+  box-shadow: 1px 1px 5px rgb(0, 0, 0);
+  border-bottom: 1px solid white;
+  border-bottom-right-radius: 50px;
+}
+
+nav a {
+  &:hover {
+    text-shadow: 1px 1px 10px white;
+  }
+}
+
+.imgIndex {
+  height: 50px;
+}
+
+/* Media Querie Dispositivos Pequeños */
+
+@media (width <= 669px) {
+
+    /* Media Querie para cambiar tamaño de alto del logo del navbar */
+
+  .imgIndex {
+    height: 40px;
+  }
+}
