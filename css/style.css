@@ -36,6 +36,23 @@ nav a {
   height: 50px;
 }
 
+.footer-link {
+  color: #bbb;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover,
+.footer-icon:hover {
+  text-shadow: 1px 1px 10px white;
+  color: #fdd835;
+}
+
+footer h6 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
 /* Media Querie Dispositivos Pequeños */
 
 @media (width <= 669px) {
@@ -46,21 +63,7 @@ nav a {
     height: 40px;
   }
 }
-.footer-link {
-  color: #bbb;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
 
-.footer-link:hover,
-.footer-icon:hover {
-  color: #fdd835;
-}
-
-footer h6 {
-  font-size: 1rem;
-  margin-bottom: 0.5rem;
-}
 
 @media (max-width: 576px) {
   .footer-icon {
@@ -68,8 +71,8 @@ footer h6 {
   }
 }
 
+/* Media Queries para dispositivos grandes */
+
 @media (width >= 992px) {
-  .cardPoke {
-    width: 250px;
-  }
+
 }
