@@ -188,3 +188,135 @@ footer h6 {
 .bodyMoltres{
   background: linear-gradient(black, rgb(227, 119, 11), black);
 }
+.bodyZapdos {
+  background: linear-gradient(to bottom, #000000, #fff176);
+}
+
+
+.Electrico {
+  background-color: gold;
+  color: black;
+}
+
+.Roca {
+  background-color: #8d6e63;
+  color: white;
+}
+
+.Hielo {
+  background-color: #81d4fa;
+  color: black;
+}
+
+/* PUNTOS DE BASE */
+.stats-container {
+  background-color: #b0b0b0;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.stat-bar {
+  margin: 10px;
+  text-align: center;
+  width: 70px;
+}
+
+.bar-label {
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.bar-columns {
+  display: flex;
+  flex-direction: column-reverse;
+  height: 160px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.bar {
+  height: 10%;
+  margin: 1px 0;
+  border: 1px solid white;
+}
+
+.fill {
+  background-color: #4fc3f7;
+}
+
+.empty {
+  background-color: white;
+}
+
+/* CARRUSEL CARTAS */
+.carousel-card {
+  max-height: 400px;
+  transition: transform 0.5s ease;
+}
+
+.carousel-card:hover {
+  transform: scale(1.05);
+}
+
+#cardCarousel .carousel-indicators [data-bs-target] {
+  background-color: #000;
+}
+
+#cardCarousel {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.carousel-title {
+  color: #ffffff;
+  text-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+}
+.stats-container {
+  background-color: #b0b0b0;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.stat-bar {
+  margin: 10px;
+  text-align: center;
+  width: 70px;
+}
+
+.bar-label {
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.bar-columns {
+  display: flex;
+  flex-direction: column-reverse;
+  height: 160px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.bar {
+  height: 10%;
+  margin: 1px 0;
+  border: 1px solid white;
+  transition: all 0.3s ease;
+}
+
+.fill {
+  background-color: #4fc3f7;
+}
+
+.fill:hover {
+  background-color: #039be5;
+  transform: scale(1.05);
+}
+
+.empty {
+  background-color: white;
+}
+
+
+
