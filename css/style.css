@@ -1,3 +1,15 @@
+:root {
+  --fuego : #ff4800;
+  --agua : #4592c4;
+  --electrico : #edd434;
+  --psiquica : #f366b9;
+  --volador : linear-gradient(180deg,rgba(61, 199, 239, 1) 50%, rgba(189, 185, 184, 0.52) 50%, rgba(74, 74, 74, 1) 0%);
+  --dragon : linear-gradient(180deg,rgba(83, 164, 207, 1) 50%, rgba(0, 0, 0, 0.52) 0%, rgba(241, 110, 87, 1) 50%);
+  --hielo : #53a4cf;
+  --tierra : linear-gradient(180deg,rgba(237, 212, 52, 1) 50%, rgba(163, 140, 33, 1) 50%); 
+}
+
+
 /* Bajar Footer */
 
 body {
@@ -97,6 +109,76 @@ footer h6 {
 .carousel-img {
   margin: auto;
 }
+
+/* Hovers para PokeCards */
+
+.pokeCardFuego:hover {
+  box-shadow: 1px 1px 15px var(--fuego);
+  background-image: url(../img/fuegobg.jpg);
+        background-size: cover;
+
+}
+.pokeCardAgua:hover {
+  box-shadow: 1px 1px 15px var(--agua);
+    background-image: url(../img/aguabg.jpg);
+          background-size: cover;
+
+
+}
+.pokeCardElectrico:hover {
+  box-shadow: 1px 1px 15px var(--electrico);
+  background-image: url(../img/electricobg.jpg);
+        background-size: cover;
+
+}
+.pokeCardHielo:hover {
+  box-shadow: 1px 1px 15px var(--hielo);
+    background-image: url(../img/hielobg.jpg);
+          background-size: cover;
+
+
+}
+.pokeCardDragonElec:hover {
+   box-shadow: 1px 1px 15px var(--electrico);
+      background-image: url(../img/voladorbg.jpg);
+      background-size: cover;
+
+}
+
+.pokeCardDragonFue:hover {
+   box-shadow: 1px 1px 15px var(--fuego);
+      background-image: url(../img/voladorbg.jpg);
+      background-size: cover;
+
+}
+
+.pokeCardDragonVol:hover {
+   box-shadow: 1px 1px 15px rgba(61, 199, 239, 1);
+      background-image: url(../img/voladorbg.jpg);
+      background-size: cover;
+
+}
+.pokeCardPsiqui:hover {
+   box-shadow: 1px 1px 15px var(--psiquica);
+      background-image: url(../img/psiquibg.jpg);
+      background-size: cover;
+
+}
+.pokeCardTierra:hover {
+  box-shadow: 1px 1px 15px rgba(163, 140, 33, 1);
+      background-image: url(../img/tierrabg.jpg);
+      background-size: cover;
+}
+
+/* background body cards */
+
+.bgPokeCards {
+  background-image: url(https://assets.pokemon.com/static2/_ui/img/chrome/container_bg.png) ;
+  background-color: black;
+  box-shadow: 1px 1px 5px black;
+  
+}
+
 @media (width >= 992px) {
   .carousel-img {
     height: 350px;
