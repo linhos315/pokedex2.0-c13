@@ -5,7 +5,7 @@ body {
 
   display: flex;
 
-  flex-direction: column; 
+  flex-direction: column;
 }
 
 main {
@@ -39,8 +39,7 @@ nav a {
 /* Media Querie Dispositivos Pequeños */
 
 @media (width <= 669px) {
-
-    /* Media Querie para cambiar tamaño de alto del logo del navbar */
+  /* Media Querie para cambiar tamaño de alto del logo del navbar */
 
   .imgIndex {
     height: 40px;
@@ -104,6 +103,6 @@ footer h6 {
   }
 }
 
-body{
-    background: linear-gradient(black , rgb(227, 119, 11), black );
+.bodyMoltres{
+  background: linear-gradient(black, rgb(227, 119, 11), black);
 }
