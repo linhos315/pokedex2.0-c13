@@ -318,5 +318,16 @@ footer h6 {
   background-color: white;
 }
 
+.bodySobrenos{
+    background: linear-gradient(black,white,grey )
+}
+
+.subtitulos{
+    background-color: rgb(190, 92, 21);
+}
+
+.colorDiv{
+    background-color: yellow;
+}
 
 
