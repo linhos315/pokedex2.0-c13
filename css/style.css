@@ -200,6 +200,12 @@ footer h6 {
   background-size: cover;
 }
 
+.pokeCardBGElectrico {
+  box-shadow: 1px 1px 15px var(--electrico);
+  background-image: url(../img/electricobg.jpg);
+  background-size: cover;
+}
+
 /* background body cards */
 
 .bgPokeCards {
