@@ -330,4 +330,57 @@ footer h6 {
     background-color: yellow;
 }
 
+.sticky-group {
+  position: fixed;
+  top: 40%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 60px;
+  z-index: 2000;
+  border-radius: 0 10px 10px 0;
+  overflow: hidden;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.sticky-part {
+  width: 100%;
+  height: 70px;
+  background-color: #424242;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.sticky-part img {
+  width: 28px;
+  height: 28px;
+  margin-bottom: 3px;
+}
+
+.sticky-part span {
+  font-size: 11px;
+  white-space: nowrap;
+}
+
+
+.sticky-part.top-part {
+  background-color: #c62828; /* Rojo */
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+
+.sticky-part.bottom-part {
+  background-color: #333;
+}
+
+.sticky-part:hover {
+  filter: brightness(1.1);
+}
+
+
 
