@@ -136,6 +136,23 @@ footer h6 {
   background: linear-gradient(rgb(186, 156, 5), rgb(102, 39, 5));
 }
 
+.dragon {
+  background: linear-gradient(rgba(83, 164, 207, 1), rgba(241, 110, 87, 1));
+}
+
+.tierra {
+  background: linear-gradient(
+    180deg,
+    rgba(237, 212, 52, 1),
+    rgba(163, 140, 33, 1)
+  );
+  color: black;
+}
+
+.psiquica {
+  background-color: var(--psiquica);
+}
+
 .carousel-img {
   margin: auto;
 }
