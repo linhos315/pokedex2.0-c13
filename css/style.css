@@ -113,6 +113,10 @@ footer h6 {
   background-color: white;
 }
 
+.agua {
+  background-color: var(--agua);
+}
+
 .fuego {
   background-color: #ff9100;
 }
@@ -184,9 +188,21 @@ footer h6 {
 
 /* background para cards detalle */
 
-.pokeCardHielo {
+.pokeCardBGHielo {
   box-shadow: 1px 1px 15px var(--hielo);
   background-image: url(../img/hielobg.jpg);
+  background-size: cover;
+}
+
+.pokeCardBGFuego {
+  box-shadow: 1px 1px 15px var(--fuego);
+  background-image: url(../img/fuegobg.jpg);
+  background-size: cover;
+}
+
+.pokeCardBGElectrico {
+  box-shadow: 1px 1px 15px var(--electrico);
+  background-image: url(../img/electricobg.jpg);
   background-size: cover;
 }
 
