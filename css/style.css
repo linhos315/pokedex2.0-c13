@@ -78,6 +78,12 @@ footer h6 {
     font-size: 1.3rem;
   }
 }
+.fixsobreNos {
+  height: auto;
+  object-fit: cover;
+}
+
+
 .color {
   background-color: #20738a;
   border-radius: 15px;
