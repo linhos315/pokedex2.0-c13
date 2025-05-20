@@ -1,14 +1,28 @@
 :root {
-  --fuego : #ff4800;
-  --agua : #4592c4;
-  --electrico : #edd434;
-  --psiquica : #f366b9;
-  --volador : linear-gradient(180deg,rgba(61, 199, 239, 1) 50%, rgba(189, 185, 184, 0.52) 50%, rgba(74, 74, 74, 1) 0%);
-  --dragon : linear-gradient(180deg,rgba(83, 164, 207, 1) 50%, rgba(0, 0, 0, 0.52) 0%, rgba(241, 110, 87, 1) 50%);
-  --hielo : #53a4cf;
-  --tierra : linear-gradient(180deg,rgba(237, 212, 52, 1) 50%, rgba(163, 140, 33, 1) 50%); 
+  --fuego: #ff4800;
+  --agua: #4592c4;
+  --electrico: #edd434;
+  --psiquica: #f366b9;
+  --volador: linear-gradient(
+    180deg,
+    rgba(61, 199, 239, 1) 50%,
+    rgba(189, 185, 184, 0.52) 50%,
+    rgba(74, 74, 74, 1) 0%
+  );
+  --dragon: linear-gradient(
+    180deg,
+    rgba(83, 164, 207, 1) 50%,
+    rgba(0, 0, 0, 0.52) 0%,
+    rgba(241, 110, 87, 1) 50%
+  );
+  --hielo: #53a4cf;
+  --tierra: linear-gradient(
+    180deg,
+    rgba(237, 212, 52, 1) 50%,
+    rgba(163, 140, 33, 1) 50%
+  );
+  --acero: #9eb7b8;
 }
-
 
 /* Bajar Footer */
 
@@ -55,6 +69,14 @@ nav a {
 
   .imgIndex {
     height: 40px;
+  }
+
+  .marginTop-4{
+    margin-top: 20px;
+  }
+
+  .wdCardcarrousel-sm{
+    width: 90%;
   }
 }
 .footer-link {
@@ -115,68 +137,71 @@ footer h6 {
 .pokeCardFuego:hover {
   box-shadow: 1px 1px 15px var(--fuego);
   background-image: url(../img/fuegobg.jpg);
-        background-size: cover;
-
+  background-size: cover;
 }
 .pokeCardAgua:hover {
   box-shadow: 1px 1px 15px var(--agua);
-    background-image: url(../img/aguabg.jpg);
-          background-size: cover;
-
-
+  background-image: url(../img/aguabg.jpg);
+  background-size: cover;
 }
 .pokeCardElectrico:hover {
   box-shadow: 1px 1px 15px var(--electrico);
   background-image: url(../img/electricobg.jpg);
-        background-size: cover;
-
+  background-size: cover;
 }
 .pokeCardHielo:hover {
   box-shadow: 1px 1px 15px var(--hielo);
-    background-image: url(../img/hielobg.jpg);
-          background-size: cover;
-
-
+  background-image: url(../img/hielobg.jpg);
+  background-size: cover;
 }
 .pokeCardDragonElec:hover {
-   box-shadow: 1px 1px 15px var(--electrico);
-      background-image: url(../img/voladorbg.jpg);
-      background-size: cover;
-
+  box-shadow: 1px 1px 15px var(--electrico);
+  background-image: url(../img/voladorbg.jpg);
+  background-size: cover;
 }
 
 .pokeCardDragonFue:hover {
-   box-shadow: 1px 1px 15px var(--fuego);
-      background-image: url(../img/voladorbg.jpg);
-      background-size: cover;
-
+  box-shadow: 1px 1px 15px var(--fuego);
+  background-image: url(../img/voladorbg.jpg);
+  background-size: cover;
 }
 
 .pokeCardDragonVol:hover {
-   box-shadow: 1px 1px 15px rgba(61, 199, 239, 1);
-      background-image: url(../img/voladorbg.jpg);
-      background-size: cover;
-
+  box-shadow: 1px 1px 15px rgba(61, 199, 239, 1);
+  background-image: url(../img/voladorbg.jpg);
+  background-size: cover;
 }
 .pokeCardPsiqui:hover {
-   box-shadow: 1px 1px 15px var(--psiquica);
-      background-image: url(../img/psiquibg.jpg);
-      background-size: cover;
-
+  box-shadow: 1px 1px 15px var(--psiquica);
+  background-image: url(../img/psiquibg.jpg);
+  background-size: cover;
 }
 .pokeCardTierra:hover {
   box-shadow: 1px 1px 15px rgba(163, 140, 33, 1);
-      background-image: url(../img/tierrabg.jpg);
-      background-size: cover;
+  background-image: url(../img/tierrabg.jpg);
+  background-size: cover;
+}
+
+/* background para cards detalle */
+
+.pokeCardHielo {
+  box-shadow: 1px 1px 15px var(--hielo);
+  background-image: url(../img/hielobg.jpg);
+  background-size: cover;
 }
 
 /* background body cards */
 
 .bgPokeCards {
-  background-image: url(https://assets.pokemon.com/static2/_ui/img/chrome/container_bg.png) ;
+  background-image: url(https://assets.pokemon.com/static2/_ui/img/chrome/container_bg.png);
   background-color: black;
   box-shadow: 1px 1px 5px black;
-  
+}
+
+.bgPokeGameCards {
+  background-image: url(https://assets.pokemon.com/static2/_ui/img/chrome/container_bg.png);
+  background-color: rgb(173, 173, 173);
+  box-shadow: 1px 1px 10px black;
 }
 
 @media (width >= 992px) {
@@ -185,13 +210,17 @@ footer h6 {
   }
 }
 
-.bodyMoltres{
+.bodyMoltres {
   background: linear-gradient(black, rgb(227, 119, 11), black);
 }
 .bodyZapdos {
   background: linear-gradient(to bottom, #000000, #fff176);
 }
 
+.bodyArticuno {
+  background: linear-gradient(black, var(--hielo), black);
+
+}
 
 .Electrico {
   background-color: gold;
@@ -205,6 +234,16 @@ footer h6 {
 
 .Hielo {
   background-color: #81d4fa;
+  color: black;
+}
+
+.Fuego {
+  background-color: var(--fuego);
+  color: white;
+}
+
+.Acero {
+  background-color: var(--acero);
   color: black;
 }
 
@@ -318,16 +357,16 @@ footer h6 {
   background-color: white;
 }
 
-.bodySobrenos{
-    background: linear-gradient(black,white,grey )
+.bodySobrenos {
+  background: linear-gradient(black, white, grey);
 }
 
-.subtitulos{
-    background-color: rgb(190, 92, 21);
+.subtitulos {
+  background-color: rgb(190, 92, 21);
 }
 
-.colorDiv{
-    background-color: yellow;
+.colorDiv {
+  background-color: yellow;
 }
 
 .sticky-group {
@@ -341,7 +380,6 @@ footer h6 {
   overflow: hidden;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
 }
-
 
 .sticky-part {
   width: 100%;
@@ -367,12 +405,10 @@ footer h6 {
   white-space: nowrap;
 }
 
-
 .sticky-part.top-part {
   background-color: #c62828; /* Rojo */
-  border-bottom: 1px solid rgba(255,255,255,0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
-
 
 .sticky-part.bottom-part {
   background-color: #333;
@@ -381,6 +417,3 @@ footer h6 {
 .sticky-part:hover {
   filter: brightness(1.1);
 }
-
-
-
